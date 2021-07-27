@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TITLE_MESSAGE_TO_BE_REPLACED</title>
+
+    <style type="text/css">
+        /* Client-specific Styles */
+
+        div,
+        p,
+        a,
+        li,
+        td {
+            -webkit-text-size-adjust: none;
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        /* Force Outlook to provide a "view in browser" menu link. */
+
+        html {
+            width: 100%;
+        }
+
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        /* Force Hotmail to display emails at full width */
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        /* Force Hotmail to display normal line spacing. */
+
+        #backgroundTable {
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+            line-height: 100% !important;
+        }
+
+        img {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        a img {
+            border: none;
+        }
+
+        .image_fix {
+            display: block;
+        }
+
+        p {
+            margin: 0px 0px !important;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        a {
+            color: #33b9ff;
+            text-decoration: none;
+            text-decoration: none !important;
+        }
+
+        /*STYLES*/
+
+        table[class=full] {
+            width: 100%;
+            clear: both;
+        }
+
+        /*IPAD STYLES*/
+
+        @@media only screen and (max-width: 640px) {
+
+            a[href^="tel"],
+            a[href^="sms"] {
+                text-decoration: none;
+                color: #33b9ff;
+                /* or whatever your want */
+                pointer-events: none;
+                cursor: default;
+            }
+
+            .mobile_link a[href^="tel"],
+            .mobile_link a[href^="sms"] {
+                text-decoration: default;
+                color: #33b9ff !important;
+                pointer-events: auto;
+                cursor: default;
+            }
+
+            table[class=devicewidth] {
+                width: 440px !important;
+                text-align: center !important;
+            }
+
+            table[class=devicewidthinner] {
+                width: 420px !important;
+                text-align: center !important;
+            }
+
+            img[class=banner] {
+                width: 440px !important;
+                height: 220px !important;
+            }
+
+            img[class=col2img] {
+                width: 440px !important;
+                height: 220px !important;
+            }
+        }
+
+        /*IPHONE STYLES*/
+
+        @@media only screen and (max-width: 480px) {
+
+            a[href^="tel"],
+            a[href^="sms"] {
+                text-decoration: none;
+                color: #33b9ff;
+                /* or whatever your want */
+                pointer-events: none;
+                cursor: default;
+            }
+
+            .mobile_link a[href^="tel"],
+            .mobile_link a[href^="sms"] {
+                text-decoration: default;
+                color: #33b9ff !important;
+                pointer-events: auto;
+                cursor: default;
+            }
+
+            table[class=devicewidth] {
+                width: 95% !important;
+                text-align: center !important;
+            }
+
+            table[class=devicewidthbanner] {
+                width: 100% !important;
+                text-align: center !important;
+            }
+
+            table[class=devicewidthinner] {
+                width: 100% !important;
+                text-align: center !important;
+            }
+
+            img[class=banner] {
+                width: 280px !important;
+                height: 140px !important;
+            }
+
+            img[class=col2img] {
+                width: 280px !important;
+                height: 140px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Image -->
+    <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="header">
+        <tbody>
+            <tr>
+                <td>
+                    <table background="TITLE_IMAGE_TO_BE_REPLACED" width="100%" height="150px" align="center"
+                        valign="middle" cellpadding="0" cellspacing="0" border="0" class="devicewidthbanner">
+                        <tbody>
+                            <tr>
+                                <td height="100" align="center" valign="middle" style="font-family: Helvetica, arial, sans-serif; line-height:35px; font-size: 32px;color: #282828"
+                                    st-content="menu">
+                                    <a style="color: #ffffff;text-decoration: none;"><b>Hungry?<br>&nbsp;Stress not..</b></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Shop Summary -->
+    <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="left-image">
+        <tbody>
+            <tr>
+                <td style="font-family: Helvetica, arial, sans-serif; font-size: 23px; color: #889098; text-align:center; line-height: 24px;">
+                    Order online in a matter of moments from
+                    <br /><b> @Model.ShopInfo.ShopName</b>
+                    <br />
+                    <br /><b>MESSAGE_BODY_TO_BE_REPLACED</b>
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr><td><img src="BODY_IMAGE_TO_BE_REPLACED" alt="" border="0" width="480"
+                                height="200"  style="display: block;
+  margin-left: auto; margin-right: auto;width: 50%"></td></tr>
+            <tr>
+                <td>
+                    <table width="160" height="50" bgcolor="#e53443" align="center" valign="middle" border="0"
+                        cellpadding="0" cellspacing="0" style="border-radius:3px;" st-button="learnmore">
+                        <tbody>
+                            <tr>
+                                <td height="9" align="center" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td height="14" align="center" valign="middle" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; font-weight:bold;color: #ffffff; text-align:center; line-height: 14px; ; -webkit-text-size-adjust:none;"
+                                    st-title="fulltext-btn">
+                                    <a style="text-decoration: none;color: #ffffff; text-align:center;" href="@Model.ShopInfo.Website">ORDER ONLINE</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="9" align="center" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: Helvetica, arial, sans-serif; font-size: 19px; color: #889098; text-align:center; line-height: 30px;">
+                    <a href="@Model.ShopInfo.Website"><u>@Model.ShopInfo.Website</u></a>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: Helvetica, arial, sans-serif; font-size: 19px; color: #889098; text-align:center; line-height: 30px;">
+                    <a href="tel:@Model.ShopInfo.ShopNumber">@Model.ShopInfo.ShopNumber</a>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-family: Helvetica, arial, sans-serif;text-align:center; line-height: 30px;">
+                    @Raw(Model.ShopInfo.PromotionBannerText)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Start of seperator -->
+    <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="seperator">
+        <tbody>
+            <tr>
+                <td> &nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Start of seperator -->
+    <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="seperator">
+        <tbody>
+            <tr>
+                <td> &nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Motion Media -->
+    <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="left-image">
+        <tbody>
+            <tr>
+                <td width="142" height="121" align="center">
+                    <div class="imgpop">
+                        <a target="_blank" href="https://www.kingfood.ie/">
+                            <img src="https://images.motionmedia.ie/web/Kingfood.jpg" alt="" border="0" width="180"
+                                height="60">
+                        </a>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td align="center" valign="middle" style="font-family: Helvetica, arial, sans-serif; font-size: 13px;color: #282828"
+                    st-content="preheader">
+                    Don't want to receive anymore emails?
+                    <br><a href="https://apiie.kingfood.io/unsub?email=@Model.Customer.Email" style="text-decoration: none; color: #e53443">Unsubscribe</a>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
