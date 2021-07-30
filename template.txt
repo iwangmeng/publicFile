@@ -206,7 +206,7 @@
                             <tr>
                                 <td height="100" align="center" valign="middle" style="font-family: Helvetica, arial, sans-serif; line-height:35px; font-size: 32px;color: #282828"
                                     st-content="menu">
-                                    <a style="color: #ffffff;text-decoration: none;"><b>Hungry?<br>&nbsp;Stress not..</b></a>
+                                    <a style="color: #ffffff;text-decoration: none;"></a>
                                 </td>
                             </tr>
                         </tbody>
